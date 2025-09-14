@@ -4,10 +4,11 @@ export default StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: "row",
+    flexWrap: "wrap",
     backgroundColor: "ghostwhite",
 		// backgroundColor: "yellow",
     alignItems: "center",
-    justifyContent: "space-around",
+    // justifyContent: "space-around",
     ...Platform.select({
       ios: { paddingTop: 20 },
       android: { paddingTop: StatusBar.currentHeight },
@@ -16,6 +17,7 @@ export default StyleSheet.create({
 
   box: {
     width: 100,
+    height: 100,
     justifyContent: "center",
     alignSelf: "stretch",
     alignItems: "center",
@@ -23,6 +25,7 @@ export default StyleSheet.create({
     borderWidth: 1,
     borderStyle: "dashed",
     borderColor: "darkslategray",
+    margin: 10,
   },
 
   boxText: {

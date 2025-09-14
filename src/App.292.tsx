@@ -1,6 +1,6 @@
 import { Text, View, StatusBar } from "react-native";
-import styles from "./src/styles.292";
-import Box from "./src/Box.291";
+import styles from "./styles.292";
+import Box from "./Box.291";
 const boxes = new Array(10).fill(null).map((v,i)=>(i+1))
 
 export default function App() {

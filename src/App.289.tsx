@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-import styles from "./styles";
+import styles from "./styles.289";
 
 export default function App() {
 	return (
