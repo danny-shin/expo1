@@ -1,15 +1,7 @@
 import { Text, View, StatusBar } from "react-native";
-import styles from "./src/styles.292";
-import Box from "./src/Box.291";
-const boxes = new Array(10).fill(null).map((v,i)=>(i+1))
-
+import MyApp from './src/ch18/App.292' 
 export default function App() {
 	return (
-		<View style={styles.container}>
-			<StatusBar hidden={false} />
-			{boxes.map(v =>(
-				<Box key={v}>{v}</Box>
-			))}
-		</View>
+		<MyApp />
 	);
 }
