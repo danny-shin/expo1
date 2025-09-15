@@ -1,4 +1,4 @@
-
+import React from "react";
 import { Text, View, StatusBar, Button } from "react-native";
 import styles from './styles.303'
 import { NativeStackScreenProps } from "@react-navigation/native-stack";

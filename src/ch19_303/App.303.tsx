@@ -1,8 +1,9 @@
+import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { RootStackParamList } from "./router.303";
+
 import Home from "./Home.303";
 import Details from "./Details.303";
-import { NavigationContainer } from "@react-navigation/native";
+import { RootStackParamList } from "./router.303";
 import { Button } from "react-native";
 
 const Stack = createNativeStackNavigator<RootStackParamList>()

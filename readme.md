@@ -1,3 +1,5 @@
+## https://github.com/PacktPublishing/React-and-React-Native-5E
+
 ### Uncaught Error: java.io.IOException: Failed to download remote update
 - sudo npx expo start --tunnel
 - https://stackoverflow.com/questions/79332816/uncaught-error-java-io-ioexception-failed-to-download-remote-update
